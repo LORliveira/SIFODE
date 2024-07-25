@@ -1,0 +1,396 @@
+* {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #fff;
+
+}
+
+.container {
+  width: 100%;
+}
+
+.botao-presidencia:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.botao-presidencia {
+  width: 240px;
+  height: 240px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  background-color: white;
+  margin-left: 20px;
+  font-size: 1.1rem;
+  font-family: "Rawline", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 0.0075em;
+  color: #0C326F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.botoes {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  flex-direction: row;
+}
+
+.banner {
+  height: 551px;
+  max-width: 1150px;
+  width: 100%;
+  background-color: #1E56AD;
+  padding-bottom: 10px;
+}
+
+.h1card {
+  font-family: "rawline", helvetica, arial, sans-serif;
+  color: #0C326F;
+}
+
+.imgbanner {
+  width: 500px;
+  height: 280px;
+}
+
+
+.h4banner {
+  font-size: 24px;
+  color: #FFFF00;
+  font-family: "Julius Sans One", sans-serif;
+  text-align: center;
+  font-style: normal;
+}
+
+.fundobanner {
+  background-color: #FCF9F9;
+}
+
+.pbanner {
+  justify-content: center;
+  text-align: justify;
+  width: 40%;
+  font-family: "Martel", serif;
+  margin-top: 5%;
+  color: #0c326f;
+}
+
+.pbanner2 {
+  justify-content: center;
+  text-align: center;
+  width: 32%;
+  font-family: "Martel", serif;
+  margin-bottom: 5%;
+  color: #0c326f;
+}
+
+/*Requisitos*/
+
+.h1requisitos {
+  font-family: "Inter", sans-serif;
+  color: #0C326F;
+  font-size: 36px;
+}
+
+.fundojava {
+  width: 150px;
+  height: 180px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  ;
+  border-radius: 15px;
+  background-color: #fff;
+}
+
+.java {
+  width: 131px;
+  height: 150px;
+}
+
+.google {
+  width: 175px;
+  height: 100px;
+}
+
+.logofundo {
+  width: 150px;
+  height: 150px;
+  background-color: #fff;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  ;
+  border-radius: 50%;
+}
+
+.mozila {
+  width: 95px;
+  height: 98px;
+  filter: grayscale(100%);
+}
+
+.edge {
+  width: 105px;
+  height: 106px;
+  filter: grayscale(100%);
+}
+
+
+/*FAQ*/
+.h1faq {
+  font-family: "Inter", sans-serif;
+  color: #0C326F;
+  font-size: 36px;
+}
+
+.faq-container {
+  font-family: "Inter", sans-serif;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.faq-item {
+  font-family: "Inter", sans-serif;
+  border: 1px solid #ccc;
+  width: 750px;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.faq-q {
+  font-family: "Inter", sans-serif;
+  background-color: #F4F3F3;
+  padding: 30px;
+  cursor: pointer;
+  border-radius: 10px;
+  text-align: right;
+  align-items: baseline;
+}
+
+.faq-res {
+  font-family: "Inter", sans-serif;
+  padding: 15px;
+  display: none;
+  /* Respostas inicialmente ocultas */
+  overflow: hidden;
+  /* Para a animação de altura */
+  transition: max-height 0.3s ease-out;
+  /* Animação suave */
+  justify-content: center;
+  text-align: justify;
+  width: 700px;
+}
+
+.faq-res.active {
+  font-family: "Inter", sans-serif;
+  padding: 15px;
+  display: block;
+  max-height: 600px;
+  /* Ajuste conforme necessário */
+  width: 700px;
+}
+
+/*Co-autor*/
+.h1tramite {
+  font-family: "Inter", sans-serif;
+  color: #0C326F;
+  font-size: 36px;
+}
+
+.h3tramite {
+  font-family: "Inter", sans-serif;
+  color: #0C326F;
+  font-size: 20px;
+  float: left;
+  display: flex;
+  align-items: flex-start;
+  width: 50%;
+}
+
+.pfora {
+  width: 50%;
+  text-align: justify;
+  justify-content: baseline;
+  font-family: "Inter", sans-serif;
+  float: left;
+  display: flex;
+  align-items: flex-start;
+}
+
+.section1 {
+  width: 50%;
+  background-color: #F4F3F3;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-family: "Martel", serif;
+}
+
+.section2 {
+  width: 50%;
+  background-color: #F4F3F3;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-align: justify;
+  font-family: "Martel", serif;
+}
+
+.section3 {
+  width: 50%;
+  background-color: #F4F3F3;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-align: justify;
+  font-family: "Martel", serif;
+}
+
+.section4 {
+  width: 50%;
+  background-color: #F4F3F3;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-align: justify;
+  font-family: "Martel", serif;
+}
+.section5 {
+  width: 50%;
+  background-color: #F4F3F3;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-align: justify;
+  font-family: "Martel", serif;
+}
+.section6 {
+  width: 50%;
+  background-color: #F4F3F3;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-align: justify;
+  font-family: "Martel", serif;
+}
+.imgsection1 {
+  width: 361px;
+  height: 34px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+.imgsection2 {
+  border: 1px solid #ccc;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+.imgsection3 {
+
+  border: 1px solid #ccc;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+.imgsection4 {
+  width: 128px;
+  height: 21px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+.psection1 {
+  text-align: justify;
+  align-items: baseline;
+}
+
+/* Visoes */
+
+.imgvisoes1 {
+  width: 397px;
+  height: 337px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+.imgvisoes2 {
+  width: 500px;
+  height: 300px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+/*AdminFluxos*/
+.imgadminfluxos1 {
+
+  border: 1px solid #ccc;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+.imgadminfluxos2 {
+
+  border: 1px solid #ccc;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+.imgadminfluxos3 {
+  border: 1px solid #ccc;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+.imgadminfluxos4 {
+  border: 1px solid #ccc;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+.imgadminfluxos5 {
+
+  border: 1px solid #ccc;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+.imgadminfluxos6 {
+  border: 1px solid #ccc;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
