@@ -4,16 +4,58 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
+  margin-top: 0px;
+}
+
+.teste {
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  height: 70px;
+  background: #fff;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  /*align-content:;*/
+  float: left;
+  position: sticky;
+}
+
+#govlogo {
+  align-items: center;
+  width: 6%;
+  height: 45%;
+  align-content: flex-start;
+  justify-content: center;
+  border-right-width: 8px;
+  border-right: 0.5mm ridge gray;
+}
+
+#govbr {
+  text-align: left;
+  border-left: 0px;
+  margin: 8px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
 }
 
 body {
   font-family: sans-serif;
   background-color: #fff;
-
 }
 
 .container {
   width: 100%;
+}
+
+.p-justificado {
+  text-align: justify;
+  position: sticky;
+}
+
+.p-centralizado {
+  border: 0px 1500px;
+  text-align: center;
 }
 
 .botao-presidencia:hover {
@@ -33,7 +75,7 @@ body {
   font-weight: 500;
   line-height: 1.6;
   letter-spacing: 0.0075em;
-  color: #0C326F;
+  color: #0c326f;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,30 +93,31 @@ body {
 
 .banner {
   height: 551px;
-  max-width: 100%;
   width: 100%;
-  background-color: #1E56AD;
+  background-color: #1e56ad;
 }
 
 .h1card {
   font-family: "rawline", helvetica, arial, sans-serif;
-  color: #0C326F;
+  color: #0c326f;
+  margin-top: 0.7em;
 }
 
 .imgbanner {
-  width: 600px;
-  height: 350px;
+  width: 22%;
+  height: 55%;
 }
 
 .h4banner {
   font-size: 25px;
-  color: #FFFF00;
+  color: #ffff00;
   font-family: Roboto;
   text-align: center;
 }
 
 .fundobanner {
-  background-color: #FCF9F9;
+  background-color: #fcf9f9;
+  width: 100%;
 }
 
 .pbanner {
