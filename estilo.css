@@ -6,14 +6,61 @@
   width: 100%;
 }
 
-body {
-  font-family: sans-serif;
+body{
+  margin: 0px;
+  font-family: "inter", sans-serif;
   background-color: #fff;
+}
 
+.teste {
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  height: 70px;
+  background: #fff;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  /*align-content:;*/
+  float: left;
+  position: sticky;
+}
+
+#govlogo {
+  
+  margin-left: 200px;
+  align-items: center;
+  width: 5%;
+  height: 43%;
+  align-content: flex-start;
+  justify-content: center;
+  border-right-width: 8px;
+  border-right: 0.5mm ridge gray;
+}
+
+#govbr {
+  text-align: left;
+  border-left: 0px;
+  margin: 8px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
 }
 
 .container {
   width: 100%;
+}
+
+.p-justificado {
+  width: 70%;
+  position: sticky;
+  color: #0c326f;
+}
+
+.p-centralizado {
+  width: 70%;
+  text-align: center;
+  color: #0C326F;
+  margin-bottom: 3%;
 }
 
 .botao-presidencia:hover {
@@ -45,19 +92,20 @@ body {
 .botoes {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
+  margin-bottom: 30px;
   flex-direction: row;
 }
 
 .banner {
   height: 551px;
-  max-width: 1150px;
-  width: 100%;
+  width: 75%;
   background-color: #1E56AD;
   padding-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .h1card {
+  margin-top: 40px;
   font-family: "rawline", helvetica, arial, sans-serif;
   color: #0C326F;
 }
