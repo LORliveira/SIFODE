@@ -1,8 +1,8 @@
-const faqItems = document.querySelectorAll('.faq-item');
+const faqItems = document.querySelectorAll('.lista-faq');
 
 faqItems.forEach(item => {
-  const q = item.querySelector('.faq-q');
-  const res = item.querySelector('.faq-res');
+  const q = item.querySelector('.pergunta-faq');
+  const res = item.querySelector('.resposta-faq');
 
   q.addEventListener('click', () => {
     res.classList.toggle('active');
@@ -10,7 +10,7 @@ faqItems.forEach(item => {
     // Fecha outras gavetas abertas
     faqItems.forEach(otherItem => {
       if (otherItem !== item) {
-        otherItem.querySelector('.faq-res').classList.remove('active');
+        otherItem.querySelector('.resposta-faq').classList.remove('active');
       }
     });
   });
