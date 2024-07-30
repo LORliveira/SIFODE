@@ -31,6 +31,7 @@ header {
   position: sticky;
 }
 
+/*Index*/
 #gov-logo {
   margin-left: 200px;
   align-items: center;
@@ -139,21 +140,9 @@ header {
   height: 70px;
 }
 
-/* descobrir uso
-
-.pbanner {
-  justify-content: center;
-  text-align: justify;
-  width: 40%;
-  font-family: "Martel", serif;
-  margin-top: 5%;
-  color: #0c326f;
-}*/
-
 /*fim Index*/
 
 /*Requisitos*/
-
 .requisitos {
   display: flex;
   flex-direction: row;
@@ -225,8 +214,10 @@ h4 {
 
 /*fim Requisitos*/
 
-/*FAQ*/
+/*Certificado digital*/
+/*fim Certificado digital*/
 
+/*FAQ*/
 .faq-container {
   font-family: "Inter", sans-serif;
   width: 50%;
@@ -278,13 +269,27 @@ h4 {
   padding: 15px;
   display: block;
   max-height: 600px;
-  /* Ajuste conforme necessário */
   width: 700px;
 }
 
 /*fim FAQ*/
 
-/*Co-autor*/
+/*Sistema SIDOF*/
+/*fim Sistema SIDOF*/
+
+/*Documento oficial*/
+/*fim Documentos oficiais*/
+
+/*Regras para formatação*/
+/*fim Regras para formatação*/
+
+/*Legislação*/
+/*fim Legislação*/
+
+/*Tramite autor*/
+/*fim Tramite autor*/
+
+/*Tramite co-autor*/
 .h1tramite {
   font-family: "Inter", sans-serif;
   color: #0c326f;
