@@ -31,6 +31,7 @@ header {
   position: sticky;
 }
 
+/*Index*/
 #gov-logo {
   margin-left: 200px;
   align-items: center;
@@ -54,7 +55,16 @@ header {
 .container {
   width: 100%;
 }
-
+b{
+  width: 50%;
+  display: flex;
+  justify-content: left;
+  color: #0c326f;
+  font-family: "Inter", sans-serif;
+  float: left;
+  display: flex;
+  align-items: flex-start;
+}
 .banner {
   height: 551px;
   width: 75%;
@@ -93,7 +103,7 @@ header {
   background-color: #fcf9f9;
 }
 
-.h1-menu {
+.titulo-menu {
   margin-top: 40px;
   font-family: "rawline", helvetica, arial, sans-serif;
   color: #0c326f;
@@ -139,21 +149,9 @@ header {
   height: 70px;
 }
 
-/* descobrir uso
-
-.pbanner {
-  justify-content: center;
-  text-align: justify;
-  width: 40%;
-  font-family: "Martel", serif;
-  margin-top: 5%;
-  color: #0c326f;
-}*/
-
 /*fim Index*/
 
 /*Requisitos*/
-
 .requisitos {
   display: flex;
   flex-direction: row;
@@ -225,19 +223,22 @@ h4 {
 
 /*fim Requisitos*/
 
-/*FAQ*/
+/*Certificado digital*/
+/*fim Certificado digital*/
 
+/*FAQ*/
 .faq-container {
   font-family: "Inter", sans-serif;
   width: 50%;
   margin: 0 auto;
 }
 
-.h1faq {
+.titulo-faq {
   font-family: "Inter", sans-serif;
   color: #0c326f;
   font-size: 36px;
   margin-top: 0px;
+  font-weight: normal;
 }
 
 .lista-faq {
@@ -278,20 +279,36 @@ h4 {
   padding: 15px;
   display: block;
   max-height: 600px;
-  /* Ajuste conforme necessário */
   width: 700px;
 }
 
 /*fim FAQ*/
 
-/*Co-autor*/
-.h1tramite {
+/*Sistema SIDOF*/
+/*fim Sistema SIDOF*/
+
+/*Documento oficial*/
+/*fim Documentos oficiais*/
+
+/*Regras para formatação*/
+/*fim Regras para formatação*/
+
+/*Legislação*/
+/*fim Legislação*/
+
+/*Tramite autor*/
+/*fim Tramite autor*/
+
+/*Tramite co-autor*/
+.titulo-tramite {
   font-family: "Inter", sans-serif;
   color: #0c326f;
-  font-size: 36px;
+  font-size: 30px;
+  font-weight: normal;
 }
 
-.h3tramite {
+/*h3*/
+.subtitulo-tramite {
   font-family: "Inter", sans-serif;
   color: #0c326f;
   font-size: 20px;
@@ -299,19 +316,24 @@ h4 {
   display: flex;
   align-items: flex-start;
   width: 50%;
+  font-weight: normal;
 }
 
+/*???*/
 .pfora {
   width: 50%;
-  text-align: justify;
-  justify-content: baseline;
+  display: flex;
+  justify-content: left;
+  color: #0c326f;
   font-family: "Inter", sans-serif;
   float: left;
   display: flex;
   align-items: flex-start;
+  text-align: justify;
 }
 
-.section1 {
+/*classe para id*/
+#section {
   width: 50%;
   background-color: #f4f3f3;
   box-shadow:
@@ -323,97 +345,12 @@ h4 {
   padding-right: 20px;
   padding-left: 20px;
   font-family: "Martel", serif;
+  text-align: justify;
 }
 
-.section2 {
-  width: 50%;
-  background-color: #f4f3f3;
-  box-shadow:
-    0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14),
-    0px 1px 10px 0px rgba(0, 0, 0, 0.12);
-  padding-top: 30px;
-  padding-bottom: 20px;
-  padding-right: 20px;
-  padding-left: 20px;
-  text-align: justify;
-  font-family: "Martel", serif;
-}
-
-.section3 {
-  width: 50%;
-  background-color: #f4f3f3;
-  box-shadow:
-    0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14),
-    0px 1px 10px 0px rgba(0, 0, 0, 0.12);
-  padding-top: 30px;
-  padding-bottom: 20px;
-  padding-right: 20px;
-  padding-left: 20px;
-  text-align: justify;
-  font-family: "Martel", serif;
-}
-
-.section4 {
-  width: 50%;
-  background-color: #f4f3f3;
-  box-shadow:
-    0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14),
-    0px 1px 10px 0px rgba(0, 0, 0, 0.12);
-  padding-top: 30px;
-  padding-bottom: 20px;
-  padding-right: 20px;
-  padding-left: 20px;
-  text-align: justify;
-  font-family: "Martel", serif;
-}
-.section5 {
-  width: 50%;
-  background-color: #f4f3f3;
-  box-shadow:
-    0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14),
-    0px 1px 10px 0px rgba(0, 0, 0, 0.12);
-  padding-top: 30px;
-  padding-bottom: 20px;
-  padding-right: 20px;
-  padding-left: 20px;
-  text-align: justify;
-  font-family: "Martel", serif;
-}
-.section6 {
-  width: 50%;
-  background-color: #f4f3f3;
-  box-shadow:
-    0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14),
-    0px 1px 10px 0px rgba(0, 0, 0, 0.12);
-  padding-top: 30px;
-  padding-bottom: 20px;
-  padding-right: 20px;
-  padding-left: 20px;
-  text-align: justify;
-  font-family: "Martel", serif;
-}
-.section7 {
-  width: 50%;
-  background-color: #f4f3f3;
-  box-shadow:
-    0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14),
-    0px 1px 10px 0px rgba(0, 0, 0, 0.12);
-  padding-top: 30px;
-  padding-bottom: 20px;
-  padding-right: 20px;
-  padding-left: 20px;
-  text-align: justify;
-  font-family: "Martel", serif;
-}
 .imgsection1 {
-  width: 361px;
-  height: 34px;
+  width: 40%;
+  height: 10%;
   border: 1px solid #ccc;
   box-shadow:
     0px 2px 1px -1px rgba(0, 0, 0, 0.2),
