@@ -55,6 +55,8 @@ header {
 .container {
   width: 100%;
 }
+
+/*bold*/
 b{
   width: 50%;
   display: flex;
@@ -290,13 +292,31 @@ h4 {
 /*Documento oficial*/
 /*fim Documentos oficiais*/
 
-/*Regras para formatação*/
-/*fim Regras para formatação*/
-
-/*Legislação*/
-/*fim Legislação*/
-
 /*Tramite autor*/
+.imgtramiteautor {
+  border: 1px solid #ccc;
+  box-shadow:
+    0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+.imgtramiteautor1 {
+
+  border: 1px solid #ccc;
+  box-shadow:
+    0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+.imgtramiteautor2 {
+  
+  border: 1px solid #ccc;
+  box-shadow:
+    0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
 /*fim Tramite autor*/
 
 /*Tramite co-autor*/
@@ -307,7 +327,7 @@ h4 {
   font-weight: normal;
 }
 
-/*h3*/
+
 .subtitulo-tramite {
   font-family: "Inter", sans-serif;
   color: #0c326f;
@@ -319,7 +339,7 @@ h4 {
   font-weight: normal;
 }
 
-/*???*/
+
 .pfora {
   width: 50%;
   display: flex;
@@ -332,7 +352,6 @@ h4 {
   text-align: justify;
 }
 
-/*classe para id*/
 #section {
   width: 50%;
   background-color: #f4f3f3;
@@ -389,6 +408,8 @@ h4 {
   align-items: baseline;
 }
 
+ /*fim Tramite co-autor*/
+
 /* Visoes */
 
 .imgvisoes1 {
@@ -410,6 +431,11 @@ h4 {
     0px 1px 1px 0px rgba(0, 0, 0, 0.14),
     0px 1px 10px 0px rgba(0, 0, 0, 0.12);
 }
+
+/*fim Visoes*/
+
+/*AdminOrgaos*/
+/*fim AdminOrgaos*/
 
 /*AdminFluxos*/
 .imgadminfluxos1 {
@@ -460,29 +486,9 @@ h4 {
     0px 1px 10px 0px rgba(0, 0, 0, 0.12);
 }
 
-/*Tramite autor*/
-.imgtramiteautor {
-  border: 1px solid #ccc;
-  box-shadow:
-    0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14),
-    0px 1px 10px 0px rgba(0, 0, 0, 0.12);
-}
-.imgtramiteautor1 {
+/**/
+/**/
 
-  border: 1px solid #ccc;
-  box-shadow:
-    0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14),
-    0px 1px 10px 0px rgba(0, 0, 0, 0.12);
-}
-.imgtramiteautor2 {
-  
-  border: 1px solid #ccc;
-  box-shadow:
-    0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14),
-    0px 1px 10px 0px rgba(0, 0, 0, 0.12);
-}
+
 
 /**/
