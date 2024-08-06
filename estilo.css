@@ -162,10 +162,11 @@ b{
   width: 75%;
 }
 
-.h1-requisitos {
+h1 {
   font-family: "Inter", sans-serif;
   color: #0c326f;
   font-size: 36px;
+  font-weight: normal;
   margin-top: 0px;
 }
 
@@ -233,14 +234,6 @@ h4 {
   font-family: "Inter", sans-serif;
   width: 50%;
   margin: 0 auto;
-}
-
-.titulo-faq {
-  font-family: "Inter", sans-serif;
-  color: #0c326f;
-  font-size: 36px;
-  margin-top: 0px;
-  font-weight: normal;
 }
 
 .lista-faq {
@@ -320,13 +313,6 @@ h4 {
 /*fim Tramite autor*/
 
 /*Tramite co-autor*/
-.titulo-tramite {
-  font-family: "Inter", sans-serif;
-  color: #0c326f;
-  font-size: 30px;
-  font-weight: normal;
-}
-
 
 .subtitulo-tramite {
   font-family: "Inter", sans-serif;
@@ -403,7 +389,7 @@ h4 {
     0px 1px 10px 0px rgba(0, 0, 0, 0.12);
 }
 
-.psection1 {
+.p-section {
   text-align: justify;
   align-items: baseline;
 }
