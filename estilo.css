@@ -17,10 +17,8 @@ body {
 }
 
 header {
-  box-shadow:
-    0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14),
-    0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
   height: 70px;
   background: #fff;
   margin-bottom: 50px;
@@ -41,7 +39,6 @@ header {
   justify-content: center;
   border-right-width: 8px;
   border-right: 0.5mm ridge gray;
-
 }
 
 #govbr {
@@ -52,7 +49,7 @@ header {
   justify-content: flex-start;
   flex-direction: row;
   color: #0c326f;
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .container {
@@ -60,7 +57,7 @@ header {
 }
 
 /*bold*/
-b{
+b {
   width: 50%;
   display: flex;
   justify-content: left;
@@ -124,10 +121,8 @@ b{
 .botoes {
   width: 240px;
   height: 240px;
-  box-shadow:
-    0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14),
-    0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
   background-color: white;
   margin-left: 20px;
   font-size: 1.1rem;
@@ -176,10 +171,8 @@ h1 {
 .fundo-java {
   width: 150px;
   height: 150px;
-  box-shadow:
-    0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14),
-    0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
   border-radius: 15px;
   background-color: #fff;
 }
@@ -193,10 +186,8 @@ h1 {
   width: 150px;
   height: 150px;
   background-color: #fff;
-  box-shadow:
-    0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14),
-    0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
   border-radius: 50%;
   margin-bottom: 20px;
 }
@@ -270,6 +261,7 @@ h4 {
   justify-content: center;
   text-align: justify;
   width: 700px;
+  display: flex;
 }
 
 .resposta-faq.active {
@@ -291,26 +283,18 @@ h4 {
 /*Tramite autor*/
 .imgtramiteautor {
   border: 1px solid #ccc;
-  box-shadow:
-    0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14),
-    0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
 }
 .imgtramiteautor1 {
-
   border: 1px solid #ccc;
-  box-shadow:
-    0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14),
-    0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
 }
 .imgtramiteautor2 {
-  
   border: 1px solid #ccc;
-  box-shadow:
-    0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14),
-    0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
 }
 
 /*fim Tramite autor*/
@@ -328,7 +312,6 @@ h4 {
   font-weight: normal;
 }
 
-
 .pfora {
   width: 50%;
   display: flex;
@@ -344,10 +327,8 @@ h4 {
 #section {
   width: 50%;
   background-color: #f4f3f3;
-  box-shadow:
-    0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14),
-    0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
   padding-top: 30px;
   padding-bottom: 20px;
   padding-right: 20px;
@@ -360,36 +341,28 @@ h4 {
   width: 40%;
   height: 10%;
   border: 1px solid #ccc;
-  box-shadow:
-    0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14),
-    0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
 }
 
 .imgsection2 {
   border: 1px solid #ccc;
-  box-shadow:
-    0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14),
-    0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
 }
 
 .imgsection3 {
   border: 1px solid #ccc;
-  box-shadow:
-    0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14),
-    0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
 }
 
 .imgsection4 {
   width: 128px;
   height: 21px;
   border: 1px solid #ccc;
-  box-shadow:
-    0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14),
-    0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
 }
 
 .p-section {
@@ -397,7 +370,7 @@ h4 {
   align-items: baseline;
 }
 
- /*fim Tramite co-autor*/
+/*fim Tramite co-autor*/
 
 /* Visoes */
 
@@ -405,20 +378,16 @@ h4 {
   width: 397px;
   height: 337px;
   border: 1px solid #ccc;
-  box-shadow:
-    0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14),
-    0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
 }
 
 .imgvisoes2 {
   width: 500px;
   height: 300px;
   border: 1px solid #ccc;
-  box-shadow:
-    0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14),
-    0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
 }
 
 /*fim Visoes*/
@@ -429,86 +398,72 @@ h4 {
 /*AdminFluxos*/
 .imgadminfluxos1 {
   border: 1px solid #ccc;
-  box-shadow:
-    0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14),
-    0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
 }
 
 .imgadminfluxos2 {
   border: 1px solid #ccc;
-  box-shadow:
-    0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14),
-    0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
 }
 
 .imgadminfluxos3 {
   border: 1px solid #ccc;
-  box-shadow:
-    0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14),
-    0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
 }
 
 .imgadminfluxos4 {
   border: 1px solid #ccc;
-  box-shadow:
-    0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14),
-    0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
 }
 
 .imgadminfluxos5 {
   border: 1px solid #ccc;
-  box-shadow:
-    0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14),
-    0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
 }
 
 .imgadminfluxos6 {
   border: 1px solid #ccc;
-  box-shadow:
-    0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14),
-    0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
 }
 
 /**/
 /**/
 
-
-
 /*certificado*/
-.banner-digital{
+.banner-digital {
   width: 50%;
   padding-bottom: 10px;
   margin-bottom: 20px;
 }
-.icone-digital{
+.icone-digital {
   width: 100px;
   height: 100px;
 }
-.googleplay{
+.googleplay {
   width: 210px;
   height: 60px;
 }
-.appstore{
-   width: 200px;
+.appstore {
+  width: 200px;
   height: 58px;
-    box-shadow:
 }
-.icones-posicao{
-    width: 70%;
-    display: flex;
+
+.icones-posicao {
+  width: 70%;
+  display: flex;
   justify-content: center;
   margin-bottom: 30px;
   flex-direction: row;
   text-decoration: none;
   padding: 2%;
 }
-.tutorial{
+.tutorial {
   width: 200px;
   padding-left: 10%;
   padding-right: 10%;
