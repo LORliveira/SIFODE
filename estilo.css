@@ -52,7 +52,7 @@ header {
   justify-content: flex-start;
   flex-direction: row;
   color: #0c326f;
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .container {
@@ -60,7 +60,7 @@ header {
 }
 
 /*bold*/
-b{
+b {
   width: 50%;
   display: flex;
   justify-content: left;
@@ -70,6 +70,7 @@ b{
   display: flex;
   align-items: flex-start;
 }
+
 .banner {
   height: 551px;
   width: 75%;
@@ -290,12 +291,15 @@ h4 {
 
 /*Tramite autor*/
 .imgtramiteautor {
+  width: 500px;
+  height: 500px;
   border: 1px solid #ccc;
   box-shadow:
     0px 2px 1px -1px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14),
     0px 1px 10px 0px rgba(0, 0, 0, 0.12);
 }
+
 .imgtramiteautor1 {
 
   border: 1px solid #ccc;
@@ -304,8 +308,9 @@ h4 {
     0px 1px 1px 0px rgba(0, 0, 0, 0.14),
     0px 1px 10px 0px rgba(0, 0, 0, 0.12);
 }
+
 .imgtramiteautor2 {
-  
+
   border: 1px solid #ccc;
   box-shadow:
     0px 2px 1px -1px rgba(0, 0, 0, 0.2),
@@ -330,7 +335,7 @@ h4 {
 
 
 .pfora {
-  width: 50%;
+  width: 100%;
   display: flex;
   justify-content: left;
   color: #0c326f;
@@ -341,8 +346,23 @@ h4 {
   text-align: justify;
 }
 
-#section {
+.section {
   width: 50%;
+  background-color: #f4f3f3;
+  box-shadow:
+    0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-family: "Martel", serif;
+  text-align: justify;
+}
+
+#section {
+  width: 100%;
   background-color: #f4f3f3;
   box-shadow:
     0px 2px 1px -1px rgba(0, 0, 0, 0.2),
@@ -397,7 +417,7 @@ h4 {
   align-items: baseline;
 }
 
- /*fim Tramite co-autor*/
+/*fim Tramite co-autor*/
 
 /* Visoes */
 
@@ -481,36 +501,63 @@ h4 {
 
 
 /*certificado*/
-.banner-digital{
+.banner-digital {
   width: 50%;
   padding-bottom: 10px;
   margin-bottom: 20px;
 }
-.icone-digital{
+
+.icone-digital {
   width: 100px;
   height: 100px;
 }
-.googleplay{
+
+.googleplay {
   width: 210px;
   height: 60px;
 }
-.appstore{
-   width: 200px;
+
+.appstore {
+  width: 200px;
   height: 58px;
-    box-shadow:
+  box-shadow:
 }
-.icones-posicao{
-    width: 70%;
-    display: flex;
+
+.icones-posicao {
+  width: 70%;
+  display: flex;
   justify-content: center;
   margin-bottom: 30px;
   flex-direction: row;
   text-decoration: none;
   padding: 2%;
 }
-.tutorial{
+
+.tutorial {
   width: 200px;
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 5%;
+}
+
+/*Fluxos*/
+.imgfluxos {
+  justify-content: center;
+  width: 100%;
+  height: 50%;
+}
+
+.sectionfluxos {
+  width: 50%;
+  background-color: #f4f3f3;
+  box-shadow:
+    0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-family: "Martel", serif;
+  text-align: justify;
 }
