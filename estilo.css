@@ -29,6 +29,26 @@ header {
   position: sticky;
 }
 
+Footer{
+  width: 100%;
+  background-color: #0c326f;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+} 
+footer p{
+  justify-content: flex-start;
+  flex-direction: row;
+  width: 50%;
+  color: #fff;
+  
+  padding-bottom: 0.5%;
+  padding-left: 2%;
+  font-weight: bolder;
+  font-size:xx-large;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.6em;
+}
 /*Index*/
 #gov-logo {
   margin-left: 200px;
@@ -236,6 +256,7 @@ h4 {
   border-right: 1px solid #ccc;
   width: 750px;
   padding: 0px 20px;
+  
 }
 
 .pergunta-faq {
