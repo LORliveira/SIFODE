@@ -241,9 +241,6 @@ h4 {
 
 /*fim Requisitos*/
 
-/*Certificado digital*/
-/*fim Certificado digital*/
-
 /*FAQ*/
 .faq-container {
   font-family: "Inter", sans-serif;
@@ -283,7 +280,6 @@ h4 {
   justify-content: center;
   text-align: justify;
   width: 700px;
-  display: flex;
 }
 
 .resposta-faq.active {
