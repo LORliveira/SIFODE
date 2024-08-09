@@ -29,14 +29,16 @@ header {
   position: sticky;
 }
 
-Footer{
+.footer{
   width: 100%;
   background-color: #0c326f;
   display: flex;
   justify-content: flex-start;
   flex-direction: row;
-} 
-footer p{
+}
+
+
+.footer p{
   justify-content: flex-start;
   flex-direction: row;
   width: 50%;
@@ -73,8 +75,9 @@ footer p{
 }
 
 .container {
-  width: 100%;
+  width: 75%;
 }
+
 
 /*bold*/
 b {
@@ -402,7 +405,7 @@ h4 {
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
 }
 
-.section p{
+#section p{
   text-align: justify;
   align-items: baseline;
 }
