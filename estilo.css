@@ -95,12 +95,13 @@ b {
   margin-bottom: 20px;
 }
 
-.h4-banner {
+.banner h4{
   font-size: 24px;
   color: #ffff00;
   font-family: "Julius Sans One", sans-serif;
   text-align: center;
   font-style: normal;
+  font-weight: normal;
 }
 
 .img-banner {
@@ -125,7 +126,7 @@ b {
   background-color: #fcf9f9;
 }
 
-.titulo-menu {
+.fundo-menu h1{
   margin-top: 40px;
   font-family: "rawline", helvetica, arial, sans-serif;
   color: #0c326f;
@@ -322,7 +323,7 @@ h4 {
 
 /*Tramite co-autor*/
 
-.subtitulo-tramite {
+#tramite h3{
   font-family: "Inter", sans-serif;
   color: #0c326f;
   font-size: 20px;
@@ -386,7 +387,7 @@ h4 {
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
 }
 
-.p-section {
+.section p{
   text-align: justify;
   align-items: baseline;
 }
